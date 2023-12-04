@@ -1,0 +1,77 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raava - Acessórios Eletrônicos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+            background-color: #FF66C4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+  
+</head>
+<body>
+
+    <header>
+        Raava - Acessórios Eletrônicos
+    </header>
+  <header style="background-color: #FF66C4; color: white; padding: 10px; text-align: center; font-size: 24px;">
+      
+
+      <!-- Adicione a barra de pesquisa abaixo -->
+      <div style="background-color: #FDCFF2; padding: 10px;">
+          <input type="text" placeholder="Pesquisar..." style="width: 150px;">
+          <button style="background-color: #FF66C4; color: white; border: none; padding: 5px 10px;">Buscar</button>
+      </div>
+  </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a href="#conta">Conta</a>
+        <a href="#carrinho">Carrinho</a>
+    </nav>
+
+    <section>
+        <!-- Conteúdo da sua página aqui -->
+        Bem-vindo à Raava - sua loja de acessórios para smartphone e eletrônicos!
+    </section>
+
+    <footer>
+        © 2023 Raava - Acessórios Eletrônicos
+    </footer>
+
+</body>
+</html>
